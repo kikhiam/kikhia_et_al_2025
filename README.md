@@ -15,7 +15,7 @@ This repository hosts the code used in the manuscript: "Multicolor fate mapping 
 * To ensure that the code finds the data files, the data files need to be stored in the right paths. "FILE_TREE.txt" shows the correct locations of the files.  
 
 # System requirements
-* For DBSCAN and Monte Carlo simulation analysis:
+* For cluster analysis and Monte Carlo simulation:
 	* MATLAB R2022a with the following toolboxes:
 		* Statistics and Machine Learning Toolbox
 		* Antenna Toolbox™
