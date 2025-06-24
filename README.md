@@ -5,7 +5,7 @@ This repository hosts the code used in the manuscript: "Multicolor fate mapping 
 * Each subdirectory contains the code files necessary to run the analysis indicated in the subdirectory's name.
 
 # Data
-* To run this code, please download the associated data available here: [LINK](https://osf.io/h9fjy/), which contains the following subdirectories:
+* To run this code, please download the associated data available here: https://osf.io/h9fjy/, which contain the following subdirectories:
 	* "Data" contains the following 
 		* Cell location for one animal per group for DBSCAN and Monte Carlo Simulation demos.
 		* 4 raw z-stacks with their U-Net segmentation results for the morphology analysis. 
