@@ -1,4 +1,4 @@
-# MicrofettiStroke_2025
+# Kikhia et al 2025
 This repository hosts the code used in the manuscript: "Multicolor fate mapping of microglia reveals polyclonal expansion, heterogeneity, and cell-cell interactions after ischemic stroke"
 
 # Content
