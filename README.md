@@ -6,13 +6,13 @@ This repository hosts the code used in the manuscript: "Multicolor fate mapping 
 
 # Data
 * To run this code, please download the associated data available here: https://osf.io/h9fjy/, which contain the following subdirectories:
-	* "Data" contains the following 
+	* "Data" contains the following: 
 		* Cell location for one animal per group for DBSCAN and Monte Carlo Simulation demos.
 		* 4 raw z-stacks with their U-Net segmentation results for the morphology analysis. 
 		* The spreadsheet for the Ki-67 analysis.
 	* "Microglia_Morphology" contains the pretrained U-Net model.
-	* "Monte_Carlo" contains the output  
-* To ensure that the code finds the data files, the data files need to be stored in the right paths. "FILE_TREE.txt" shows the locations of the structure of   
+	* "Monte_Carlo" contains the intermeidairy output of the analysis to save time.  
+* To ensure that the code finds the data files, the data files need to be stored in the right paths. "FILE_TREE.txt" shows the correct locations of the files.  
 
 # System requirements
 * For DBSCAN and Monte Carlo simulation analysis:
