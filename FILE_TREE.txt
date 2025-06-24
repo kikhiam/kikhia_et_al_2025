@@ -1,0 +1,191 @@
+│   FILE_TREE.txt
+│   LICENSE.txt
+│   README.md
+│
+├───Cluster_analysis
+│       DBSCAN.m
+│       Ki67_analysis.m
+│
+├───Data
+│   │   Ki-67.xls
+│   │
+│   ├───Cell_locations
+│   │       20210428_KGE3833_contra_Series008.xls
+│   │       20210428_KGE3833_contra_Series010.xls
+│   │       20210428_KGE3833_contra_Series012.xls
+│   │       20210428_KGE3833_contra_Series014.xls
+│   │       20210428_KGE3833_contra_Series016.xls
+│   │       20210428_KGE3833_contra_Series018.xls
+│   │       20210428_KGE3833_contra_Series020.xls
+│   │       20210428_KGE3833_contra_Series022.xls
+│   │       20210428_KGE3833_contra_Series024.xls
+│   │       20210428_KGE3833_contra_Series026.xls
+│   │       20210428_KGE3833_contra_Series028.xls
+│   │       20210428_KGE3833_contra_Series030.xls
+│   │       20210428_KGE3833_ipsi_Series008.xls
+│   │       20210428_KGE3833_ipsi_Series010.xls
+│   │       20210428_KGE3833_ipsi_Series012.xls
+│   │       20210428_KGE3833_ipsi_Series014.xls
+│   │       20210428_KGE3833_ipsi_Series016.xls
+│   │       20210428_KGE3833_ipsi_Series018.xls
+│   │       20210428_KGE3833_ipsi_Series020.xls
+│   │       20210428_KGE3833_ipsi_Series022.xls
+│   │       20210428_KGE3833_ipsi_Series024.xls
+│   │       20210428_KGE3833_ipsi_Series026.xls
+│   │       20210428_KGE3833_ipsi_Series028.xls
+│   │       20210428_KGE3833_ipsi_Series030.xls
+│   │       20210914_KGE4513_contra_Series007.xls
+│   │       20210914_KGE4513_contra_Series009.xls
+│   │       20210914_KGE4513_contra_Series011.xls
+│   │       20210914_KGE4513_contra_Series013.xls
+│   │       20210914_KGE4513_contra_Series015.xls
+│   │       20210914_KGE4513_contra_Series017.xls
+│   │       20210914_KGE4513_contra_Series020.xls
+│   │       20210914_KGE4513_contra_Series022.xls
+│   │       20210914_KGE4513_contra_Series024.xls
+│   │       20210914_KGE4513_contra_Series026.xls
+│   │       20210914_KGE4513_contra_Series028.xls
+│   │       20210914_KGE4513_contra_Series030.xls
+│   │       20210914_KGE4513_ipsi_Series001.xls
+│   │       20210914_KGE4513_ipsi_Series003.xls
+│   │       20210914_KGE4513_ipsi_Series005.xls
+│   │       20210914_KGE4513_ipsi_Series007.xls
+│   │       20210914_KGE4513_ipsi_Series009.xls
+│   │       20210914_KGE4513_ipsi_Series011.xls
+│   │       20210914_KGE4513_ipsi_Series013.xls
+│   │       20210914_KGE4513_ipsi_Series015.xls
+│   │       20210914_KGE4513_ipsi_Series017.xls
+│   │       20210914_KGE4513_ipsi_Series019.xls
+│   │       20210914_KGE4513_ipsi_Series021.xls
+│   │       20210914_KGE4513_ipsi_Series023.xls
+│   │       20211027_KGE4772_contra_Series001.xls
+│   │       20211027_KGE4772_contra_Series002.xls
+│   │       20211027_KGE4772_contra_Series005.xls
+│   │       20211027_KGE4772_contra_Series007.xls
+│   │       20211027_KGE4772_contra_Series009.xls
+│   │       20211027_KGE4772_contra_Series011.xls
+│   │       20211027_KGE4772_contra_Series013.xls
+│   │       20211027_KGE4772_contra_Series015.xls
+│   │       20211027_KGE4772_contra_Series017.xls
+│   │       20211027_KGE4772_contra_Series019.xls
+│   │       20211027_KGE4772_contra_Series021.xls
+│   │       20211027_KGE4772_contra_Series023.xls
+│   │       20211027_KGE4772_ipsi_Series001.xls
+│   │       20211027_KGE4772_ipsi_Series003.xls
+│   │       20211027_KGE4772_ipsi_Series005.xls
+│   │       20211027_KGE4772_ipsi_Series007.xls
+│   │       20211027_KGE4772_ipsi_Series009.xls
+│   │       20211027_KGE4772_ipsi_Series011.xls
+│   │       20211027_KGE4772_ipsi_Series013.xls
+│   │       20211027_KGE4772_ipsi_Series016.xls
+│   │       20211027_KGE4772_ipsi_Series019.xls
+│   │       20211027_KGE4772_ipsi_Series021.xls
+│   │       20211027_KGE4772_ipsi_Series023.xls
+│   │       20211027_KGE4772_ipsi_Series025.xls
+│   │       20220105_KGE5092_contra_Series001.xls
+│   │       20220105_KGE5092_contra_Series003.xls
+│   │       20220105_KGE5092_contra_Series005.xls
+│   │       20220105_KGE5092_contra_Series007.xls
+│   │       20220105_KGE5092_contra_Series009.xls
+│   │       20220105_KGE5092_contra_Series011.xls
+│   │       20220105_KGE5092_contra_Series013.xls
+│   │       20220105_KGE5092_contra_Series015.xls
+│   │       20220105_KGE5092_contra_Series017.xls
+│   │       20220105_KGE5092_contra_Series019.xls
+│   │       20220105_KGE5092_contra_Series021.xls
+│   │       20220105_KGE5092_contra_Series023.xls
+│   │       20220105_KGE5092_ipsi_Series001.xls
+│   │       20220105_KGE5092_ipsi_Series003.xls
+│   │       20220105_KGE5092_ipsi_Series005.xls
+│   │       20220105_KGE5092_ipsi_Series007.xls
+│   │       20220105_KGE5092_ipsi_Series009.xls
+│   │       20220105_KGE5092_ipsi_Series011.xls
+│   │       20220105_KGE5092_ipsi_Series013.xls
+│   │       20220105_KGE5092_ipsi_Series015.xls
+│   │       20220105_KGE5092_ipsi_Series017.xls
+│   │       20220105_KGE5092_ipsi_Series019.xls
+│   │       20220105_KGE5092_ipsi_Series021.xls
+│   │       20220105_KGE5092_ipsi_Series023.xls
+│   │       20220216_KGE5321_contra_Series001.xls
+│   │       20220216_KGE5321_contra_Series003.xls
+│   │       20220216_KGE5321_contra_Series005.xls
+│   │       20220216_KGE5321_contra_Series007.xls
+│   │       20220216_KGE5321_contra_Series009.xls
+│   │       20220216_KGE5321_contra_Series011.xls
+│   │       20220216_KGE5321_contra_Series013.xls
+│   │       20220216_KGE5321_contra_Series015.xls
+│   │       20220216_KGE5321_contra_Series017.xls
+│   │       20220216_KGE5321_contra_Series019.xls
+│   │       20220216_KGE5321_contra_Series021.xls
+│   │       20220216_KGE5321_contra_Series023.xls
+│   │       20220216_KGE5321_ipsi_Series001.xls
+│   │       20220216_KGE5321_ipsi_Series003.xls
+│   │       20220216_KGE5321_ipsi_Series005.xls
+│   │       20220216_KGE5321_ipsi_Series007.xls
+│   │       20220216_KGE5321_ipsi_Series009.xls
+│   │       20220216_KGE5321_ipsi_Series011.xls
+│   │       20220216_KGE5321_ipsi_Series013.xls
+│   │       20220216_KGE5321_ipsi_Series015.xls
+│   │       20220216_KGE5321_ipsi_Series017.xls
+│   │       20220216_KGE5321_ipsi_Series019.xls
+│   │       20220216_KGE5321_ipsi_Series021.xls
+│   │       20220216_KGE5321_ipsi_Series023.xls
+│   │       20220314_KGE5182_contra_Series001.xls
+│   │       20220314_KGE5182_contra_Series005.xls
+│   │       20220314_KGE5182_contra_Series007.xls
+│   │       20220314_KGE5182_contra_Series009.xls
+│   │       20220314_KGE5182_contra_Series011.xls
+│   │       20220314_KGE5182_contra_Series013.xls
+│   │       20220314_KGE5182_contra_Series015.xls
+│   │       20220314_KGE5182_contra_Series017.xls
+│   │       20220314_KGE5182_contra_Series019.xls
+│   │       20220314_KGE5182_contra_Series021.xls
+│   │       20220314_KGE5182_contra_Series023.xls
+│   │       20220314_KGE5182_contra_Series025.xls
+│   │       20220314_KGE5182_ipsi_Series006.xls
+│   │       20220314_KGE5182_ipsi_Series008.xls
+│   │       20220314_KGE5182_ipsi_Series010.xls
+│   │       20220314_KGE5182_ipsi_Series012.xls
+│   │       20220314_KGE5182_ipsi_Series016.xls
+│   │       20220314_KGE5182_ipsi_Series019.xls
+│   │       20220314_KGE5182_ipsi_Series021.xls
+│   │       20220314_KGE5182_ipsi_Series023.xls
+│   │       20220314_KGE5182_ipsi_Series025.xls
+│   │       20220314_KGE5182_ipsi_Series027.xls
+│   │       20220314_KGE5182_ipsi_Series029.xls
+│   │       20220314_KGE5182_ipsi_Series031.xls
+│   │
+│   └───Morphology_analysis
+│       ├───RAW
+│       │       20220909_L6_KGE-4607_2d_ipsi_4.czi
+│       │       20220914_L8_KGE-5027_8w_ipsi_2.czi
+│       │       20220916_L7_KGE-4774_1w_ipsi_5.czi
+│       │       20220919_L9_KGE-5312_1w_contra_1.czi
+│       │
+│       └───Unet_output
+│               Segmented_20220909_L6_KGE-4607_2d_ipsi_4.czi.tif
+│               Segmented_20220914_L8_KGE-5027_8w_ipsi_2.czi.tif
+│               Segmented_20220916_L7_KGE-4774_1w_ipsi_5.czi.tif
+│               Segmented_20220919_L9_KGE-5312_1w_contra_1.czi.tif
+│
+├───Microglia_Morphology
+│       excluded_nuclei_demo_data.txt
+│       morphological_analysis_UMAP_stat.ipynb
+│       morphology_analysis_after_unet.ijm
+│       pretrained_unet_model.h5
+│       smooth_tiled_predictions.py
+│       unet_model_application_smoothed_edges.ipynb
+│       unet_model_training.ipynb
+│
+└───Monte_Carlo
+    │   compare_sum.m
+    │   Monte_Carlo_a.m
+    │   Monte_Carlo_b.m
+    │   Monte_Carlo_c.m
+    │   rings_antenna.m
+    │
+    └───Output
+            MC_density_simulations.mat
+            ring_volumes.mat
+            simulations.mat
+            SVT.mat
