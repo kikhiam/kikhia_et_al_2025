@@ -85,6 +85,9 @@ After downloading the required dependencies, the demo data allows running the fo
 * The code smooth_tiles_predictions.py is licensed under an MIT license. See more information in the code.
 * The codes for training the U-Net model and applying it contain elements adapted from other authors and published under MIT license. See more information in the code files. 
 
+# Citation
+This repository accompanies a paper currently in preparation. See the repository’s latest version for updated references.
+
 # Author
 Majed Kikhia, Charité – Universitätsmedizin Berlin, Department of Experimental Neurology  
 Codes adapted from other authors are indicated within the code files.
