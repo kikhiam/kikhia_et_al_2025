@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1007716462.svg)](https://doi.org/10.5281/zenodo.16891418)
+
 # Kikhia et al 2025
 This repository hosts the code used in the manuscript: "Multicolor fate mapping of microglia reveals polyclonal expansion, heterogeneity, and cell-cell interactions after ischemic stroke"
 
